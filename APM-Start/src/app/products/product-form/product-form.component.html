@@ -1,0 +1,19 @@
+<div class="container">
+    <h2>User Settings</h2>
+    <form >
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input placeholder="Name" id="name" class="form-control" >
+        <button class="btn btn-primary">Ok</button>
+    </div>
+    <div class="form-check form-group">
+        <input class="form-check-input" type="checkbox"
+                id="emailOffers" name="emailOffers">
+        <label class="form-check-label" for="emailOffers">
+            Email Special Offers
+        </label>
+    </div>
+    </form>
+</div>
+<!-- {{ form.value }} #form="ngForm"|| [(ngModel)]="userSettings.name" -->
+<h3>{{ userSettings }}</h3>
